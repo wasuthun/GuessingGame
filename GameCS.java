@@ -11,11 +11,14 @@ public int play(GuessingGame game){
 	System.out.println("Gussing Game");
 	System.out.println("your guess?");
 	int num=s.nextInt();
+	int count=1;
 while(!game.guess(num)){
 	System.out.println(game.getHint());
 	num=s.nextInt();
+	count++;
 }
 System.out.println("Correct.The secret is "+num);
+System.out.println("Count"+count);
 return num;
 }
 
