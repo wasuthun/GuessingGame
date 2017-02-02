@@ -61,7 +61,7 @@ public void setHint(String hint){
 	
 }
 /**
- * this method use return value
+ * this method use return value of hint
  * @return hint
  */
 public String getHint(){
